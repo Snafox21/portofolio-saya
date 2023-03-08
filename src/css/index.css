@@ -1,0 +1,46 @@
+/* banner */
+.banner {
+  display: flex;
+  min-height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.banner .left,
+.banner .right {
+  width: 50%;
+}
+
+/* portofolio */
+.portofolio {
+    background-color: #4200FF;
+}
+
+.portofolio h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.portofolio .cards .card_before {
+    padding: 10px;
+}
+
+/* responsive */
+@media only screen and (max-width: 576px) {
+}
+
+/* medium */
+@media only screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner .left,
+  .banner .right {
+    width: 100%;
+  }
+}
+
+/* large */
+@media only screen and (max-width: 992px) {
+}
